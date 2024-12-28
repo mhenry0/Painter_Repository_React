@@ -1,0 +1,200 @@
+.hero {
+  height: 100vh;
+  background: url('../public/images/paintingbg.jpg') center center / cover no-repeat;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+.hero .btn {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+}
+
+.portfolio img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* CSS for zoom effect */
+img.zoomed {
+  transform: scale(2); /* Double the size of the image */
+  transition: transform 0.3s ease-in-out; /* Smooth transition */
+  cursor: pointer; /* Indicate it's clickable */
+  z-index: 10; /* Bring image to the front */
+}
+
+/* General button styling */
+.btn {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 12px 25px;
+  border-radius: 50px; /* Fully rounded corners */
+  transition: all 0.3s ease-in-out;
+  display: inline-block;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+  letter-spacing: 1px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Portfolio button styling */
+.portfolio-btn {
+  background: linear-gradient(45deg, #007bff, #00d2ff);
+  color: white;
+  border: none;
+}
+
+.portfolio-btn:hover {
+  background: linear-gradient(45deg, #0056b3, #00b3e6);
+  transform: scale(1.1); /* Zoom in effect */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+/* Contact button styling */
+.contact-btn {
+  background-color: #f8f9fa;
+  color: #495057;
+  border: 2px solid #f8f9fa;
+  position: relative;
+}
+
+.contact-btn:hover {
+  background-color: #495057;
+  color: white;
+  border-color: #495057;
+  transform: scale(1.1); /* Zoom in effect */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+/* Adding icons */
+.fas {
+  margin-right: 10px;
+}
+
+/* Optional: Make buttons responsive */
+@media (max-width: 768px) {
+  .btn {
+    font-size: 1.1rem;
+    padding: 10px 20px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Custom Styling for Service Cards */
+.service-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.service-icon i {
+  color: #007bff;
+}
+
+h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+p {
+  font-size: 1rem;
+  color: #000000;
+}
+
+
+#google_translate_element {
+  margin-top: 10px;
+  /* Customize the translation widget's container */
+}
+
+.goog-logo-link {
+  display: none !important; /* Hide Google branding if required */
+}
+
+.goog-te-banner-frame {
+  display: none !important; /* Hide the banner */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+  background-color: #1c46d3; /* Dark background */
+  color: white; /* White text color */
+  padding: 40px 0; /* Vertical padding */
+  text-align: center; /* Center the text */
+}
+
+footer p {
+  font-size: 20px; /* Text size for the paragraph */
+  margin-bottom: 15px; /* Space below the text */
+  color: #ffffff;
+}
+
+footer .container {
+  max-width: 960px; /* Container width */
+  margin: 0 auto; /* Center container horizontally */
+}
+
+footer a {
+  color: white; /* White text for the links */
+  text-decoration: none; /* Remove underline from links */
+  margin: 0 15px; /* Space between icons */
+  font-size: 20px; /* Icon size */
+  transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+footer a:hover {
+  color: #f39c12; /* Golden-yellow on hover */
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: center; /* Center icons horizontally */
+  margin-top: 20px; /* Space above the social media icons */
+}
+
+
+
+.custom-navbar {
+  background: linear-gradient(45deg, #0d9eff, #9b33c4); /* Blue to purple gradient */
+  height: 70px;
+}
